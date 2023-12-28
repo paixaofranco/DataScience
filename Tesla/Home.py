@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from streamlit_modal import Modal
+#from streamlit_modal import Modal
 import pandas as pd
 import altair as alt
 import plotly.express as px
