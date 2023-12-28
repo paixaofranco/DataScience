@@ -1,6 +1,5 @@
 streamlit
-streamlit.components.v1
-streamlit-modal
+numpy
 pandas
 altair
 plotly.express
