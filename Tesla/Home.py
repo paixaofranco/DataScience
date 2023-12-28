@@ -35,10 +35,10 @@ if submit:
     st.session_state["my_input"] = my_input
 
 
-modal = Modal(key="Demo Key",title="Welcome!")
-open_modal = submit
-if open_modal:
-    modal.open()
-if modal.is_open():
-    with modal.container():
+#modal = Modal(key="Demo Key",title="Welcome!")
+#open_modal = submit
+#if open_modal:
+    #modal.open()
+#if modal.is_open():
+   # with modal.container():
         st.write("Hi ", my_input, ", I hope you enjoy this the app. From the side bar you can access stock movements and the official website.")
