@@ -33,6 +33,8 @@ my_input= st.text_input("What is your name?", st.session_state["my_input"])
 submit = st.button("Submit")
 if submit:
     st.session_state["my_input"] = my_input
+    st.write("Hi ", my_input, ", I hope you enjoy this the app. From the side bar you can access stock movements and the official website.")
+
 
 
 #modal = Modal(key="Demo Key",title="Welcome!")
@@ -41,4 +43,4 @@ if submit:
     #modal.open()
 #if modal.is_open():
    # with modal.container():
-        st.write("Hi ", my_input, ", I hope you enjoy this the app. From the side bar you can access stock movements and the official website.")
+        
